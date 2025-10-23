@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "emoji": "👟",
+    "name": "Running Shoes",
+    "price": 2999,
+    "category": "Footwear",
+    "description": "Lightweight teal running shoes with breathable mesh and durable soles."
+  },
+  {
+    "id": 2,
+    "emoji": "🎧",
+    "name": "Wireless Headphones",
+    "price": 4599,
+    "category": "Electronics",
+    "description": "Noise-cancelling over-ear headphones with rich bass and 20-hour battery life."
+  },
+  {
+    "id": 3,
+    "emoji": "⌚",
+    "name": "Smart Watch",
+    "price": 5499,
+    "category": "Electronics",
+    "description": "Navy blue smart watch with health tracking, notifications, and GPS."
+  },
+  {
+    "id": 4,
+    "emoji": "👕",
+    "name": "Cotton T-Shirt",
+    "price": 899,
+    "category": "Clothing",
+    "description": "Soft 100% cotton T-shirt available in teal and white colors."
+  },
+  {
+    "id": 5,
+    "emoji": "👜",
+    "name": "Leather Handbag",
+    "price": 3799,
+    "category": "Accessories",
+    "description": "Premium quality leather handbag with navy blue finish and gold zip."
+  },
+  {
+    "id": 6,
+    "emoji": "💻",
+    "name": "Laptop Stand",
+    "price": 1499,
+    "category": "Office",
+    "description": "Adjustable aluminum laptop stand with ergonomic design."
+  },
+  {
+    "id": 7,
+    "emoji": "📱",
+    "name": "Smartphone Case",
+    "price": 699,
+    "category": "Accessories",
+    "description": "Shockproof navy blue silicone case for smartphones of all sizes."
+  },
+  {
+    "id": 8,
+    "emoji": "☕",
+    "name": "Coffee Mug",
+    "price": 499,
+    "category": "Home",
+    "description": "Ceramic teal mug with heat-resistant handle and glossy finish."
+  },
+  {
+    "id": 9,
+    "emoji": "🎒",
+    "name": "Travel Backpack",
+    "price": 2599,
+    "category": "Bags",
+    "description": "Water-resistant backpack with laptop compartment and strong zippers."
+  },
+  {
+    "id": 10,
+    "emoji": "🕶️",
+    "name": "Sunglasses",
+    "price": 1199,
+    "category": "Accessories",
+    "description": "UV-protected polarized sunglasses with navy gradient lenses."
+  },
+  {
+    "id": 11,
+    "emoji": "⌨️",
+    "name": "Mechanical Keyboard",
+    "price": 3499,
+    "category": "Electronics",
+    "description": "RGB backlit keyboard with blue switches and premium typing feel."
+  },
+  {
+    "id": 12,
+    "emoji": "🕯️",
+    "name": "Scented Candle Set",
+    "price": 999,
+    "category": "Home",
+    "description": "Pack of 3 teal-scented candles for a relaxing atmosphere."
+  },
+  {
+    "id": 13,
+    "emoji": "💡",
+    "name": "Smart LED Bulb",
+    "price": 899,
+    "category": "Electronics",
+    "description": "Wi-Fi controlled RGB bulb with voice assistant compatibility."
+  },
+  {
+    "id": 14,
+    "emoji": "🖱️",
+    "name": "Wireless Mouse",
+    "price": 799,
+    "category": "Office",
+    "description": "Compact ergonomic mouse with silent clicks and adjustable DPI."
+  },
+  {
+    "id": 15,
+    "emoji": "🥾",
+    "name": "Hiking Boots",
+    "price": 3299,
+    "category": "Footwear",
+    "description": "Sturdy waterproof boots designed for comfort and grip on all terrains."
+  },
+  {
+    "id": 16,
+    "emoji": "🪴",
+    "name": "Indoor Plant Pot",
+    "price": 699,
+    "category": "Home",
+    "description": "Teal ceramic pot perfect for indoor plants and desk decor."
+  }
+]

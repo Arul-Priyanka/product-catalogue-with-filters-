@@ -1,0 +1,110 @@
+:root{
+  --teal: #0ea5a4;      /* teal */
+  --navy: #06283D;      /* navy */
+  --bg: #f6fbfd;
+  --card: #ffffff;
+  --muted: #6b7280;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, #f8feff 0%, #f0f9fb 100%);
+  color: #06283D;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 28px auto;
+  padding: 0 20px;
+}
+
+.header {
+  display:flex;
+  align-items:center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.logo {
+  background: var(--teal);
+  color:white;
+  font-weight:700;
+  padding:10px 14px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(6,40,61,0.08);
+}
+
+.app-title { font-size: 20px; font-weight:700; color:var(--navy); }
+
+/* layout */
+.grid {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 20px;
+}
+
+/* filters */
+.filters {
+  background: var(--card);
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(6,40,61,0.06);
+  height: fit-content;
+}
+
+.input, select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid #e6eef2;
+}
+
+/* product list */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 14px;
+  transition: transform .18s ease, box-shadow .18s ease;
+  box-shadow: 0 6px 16px rgba(6,40,61,0.04);
+  display:flex;
+  flex-direction: column;
+  gap:8px;
+  cursor: pointer;
+}
+.card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 20px 35px rgba(6,40,61,0.12);
+}
+
+.card .emoji {
+  font-size: 36px;
+  display:inline-block;
+  background: linear-gradient(135deg, rgba(14,165,164,0.08), rgba(6,40,61,0.03));
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.card .name { font-weight:700; color:var(--navy); }
+.card .desc { color: var(--muted); font-size: 13px; min-height: 36px; }
+.price { font-weight:700; color:var(--teal); }
+
+.hover-info {
+  margin-top:auto;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--muted);
+}
